@@ -9,7 +9,7 @@ CREATE TABLE `siswa`(
 CREATE TABLE `buku`(
     `idBuku`INT NOT NULL AUTO_INCREMENT,
     `judulBuku` VARCHAR(100),
-    `halaman` ENUM("X","XI","XII"),
+    `halaman` VARCHAR(50),
     PRIMARY KEY(`idBuku`)
 );
 CREATE TABLE `karyawan`(
