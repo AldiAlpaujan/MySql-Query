@@ -1,0 +1,25 @@
+CREATE TABLE `siswa`(
+    `idSiswa`INT NOT NULL AUTO_INCREMENT,
+    `nama` VARCHAR(100),
+    `kelas` ENUM("X","XI","XII"),
+    `noTelepon` VARCHAR(20),
+    `alamat`VARCHAR(20),
+    PRIMARY KEY(`idSiswa`)
+);
+CREATE TABLE `buku`(
+    `idBuku`INT NOT NULL AUTO_INCREMENT,
+    `judulBuku` VARCHAR(100),
+    `halaman` ENUM("X","XI","XII"),
+    PRIMARY KEY(`idBuku`)
+);
+CREATE TABLE `karyawan`(
+    `idKaryawan`INT NOT NULL AUTO_INCREMENT,
+    `nama` VARCHAR(100),
+    PRIMARY KEY(`idKaryawan`)
+);
+CREATE TABLE `waktu`(
+    `idWaktu` INT NOT NULL AUTO_INCREMENT,
+    `tanggalMeminjam` DATE,
+    `tanggalkadaluarsa` DATE,
+    PRIMARY KEY(`idWaktu`)
+);
