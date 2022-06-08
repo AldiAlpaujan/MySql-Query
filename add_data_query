@@ -1,0 +1,4 @@
+INSERT INTO `siswa` (`nama`,`kelas`,`noTelepon`,`alamat`) VALUES ("","","","");
+INSERT INTO `buku` (`judulBuku`,`halaman`) VALUES ("","");
+INSERT INTO `karyawan` (`namaKaryawan`) VALUES ("");
+INSERT INTO `waktu` (`tanggalMeminjam`,`tanggalKadaluarsa`) VALUES ("","");
